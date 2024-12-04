@@ -26,8 +26,10 @@ Step - 3 (config->web.php)           web.php -->    ***     cookeyvaladitaaionKe
 
  Step - 6 (copy nova->main.php)        Copy nova->views->layouts->main.php code  form github  and  paste in your new nova->views->layouts->main.php
 
- Step - 7 (Delete  'Widget'   and  Copy complete 'Widget' form github 'yii2_basic_theme_setup' )
+ Step - 7                              (Delete  'Widget'   and  Copy complete 'Widget' form github 'yii2_basic_theme_setup' )
+                                        if you  not copy  so create  file inside widget  by seeing  github yii2_basic_theme_setup repo  and  copy  only  code
 
-            if you  not copy  so create  file inside widget  by seeing  github yii2_basic_theme_setup repo  and  copy  only  code
+
+ Step - 8                              if theme  is  not working  so  COPY    NOVA-->VIEWS-->LAYOUTS-->MAIN.PHP   code  to  PROJECT-->VIEWS-->LAYOUTS-->MAIN.PHP
 
 
