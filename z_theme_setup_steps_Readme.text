@@ -1,0 +1,33 @@
+Step - 1                            install the  basic templete  (db and web.php setup karo)
+
+Step - 2 (asset)                     Copy "NovaAppAsset.php" file form github in asset->NovaAppAsset
+                                        (__project--> asset folder hai uske  ander "NovaAppAsset.php" copy karo github se__)
+
+                     
+Step - 3 (config->web.php)           web.php -->    ***     cookeyvaladitaaionKey = "ghsfhsdf"
+
+                                                     ***     'components' => [
+
+                                                                        'view' => [
+                                                                            'theme' => [
+                                                                                'basePath' => '@app/themes/nova',
+                                                                                'baseUrl' => '@app/themes/nova',
+                                                                                'pathMap' => ['@app/views' => '@app/themes/nova/views'],
+                                                                            ],
+                                                                        ],
+                            
+
+
+
+ Step - 4 (SiteController)             Copy SiteController.php  code  form  github 
+
+
+ Step - 5 (themes->nova)               Create "themes" {small letter} folder direclty in project  || && || and copy nova folder in themes folder
+
+ Step - 6 (copy nova->main.php)        Copy nova->views->layouts->main.php code  form github  and  paste in your new nova->views->layouts->main.php
+
+ Step - 7 (Delete  'Widget'   and  Copy complete 'Widget' form github 'yii2_basic_theme_setup' )
+
+            if you  not copy  so create  file inside widget  by seeing  github yii2_basic_theme_setup repo  and  copy  only  code
+
+
